@@ -10,12 +10,10 @@ header {
 
 }
 
-
 header .left {
     display: flex;
     align-items: center;
 }
-
 
 .img img {
     width: 50px;
@@ -31,7 +29,6 @@ header .left h3 {
     margin-right: 100px; 
     color: #333;
 }
-
 
 
 header .left a {
@@ -51,7 +48,6 @@ header .right {
     display: flex;
     align-items: center;
 }
-
 
 
 
