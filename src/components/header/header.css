@@ -1,7 +1,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    padding: 15px 70px;
+    padding: 5px 70px;
     align-items: center;
     background-color: #fff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -9,9 +9,6 @@ header {
     font-family: 'Roboto', sans-serif;
 
 }
-
-
-
 
 
 header .left {
@@ -77,22 +74,6 @@ header .right .btn:hover {
     background-color: #e87c00;
 }
 
-header .right .btn::after {
-    content: attr(data-count);
-    position: absolute;
-    top: -5px;
-    right: -5px;
-    background-color: red;
-    color: white;
-    font-size: 12px;
-    font-weight: bold;
-    border-radius: 50%;
-    width: 18px;
-    height: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 
 
